@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Thalys | Currículo Online</title>
+  <link rel="stylesheet" href="css/index.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container nav-content">
+      <a href="#inicio" class="logo">Thalys Matheus de Aguiar</a>
+      <ul class="nav-links">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#tecnologias">Tecnologias</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <button id="toggle-theme" class="theme-toggle">🌙</button>
+    </div>
+  </nav>
+
+  <header id="inicio">
+    <div class="container">
+      <img src="img/thalys.png" alt="Foto de Thalys" class="profile-pic" />
+      <p class="subtitle">Tecnologia • Suporte T.I • Programação • Administrativo</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="sobre" class="about">
+      <h2>Sobre Mim</h2>
+      <p>
+        Me chamo Thalys, tenho 24 anos, e sou apaixonado por aprender, seja dentro ou fora da área da tecnologia. Me formei em programação e comecei minha jornada profissional atuando com T.I, passando depois para o suporte administrativo, onde desempenhei funções como BKO, recepcionista e novamente T.I.
+        <br><br>
+        Apesar de ter poucos anos de experiência formal, já vivenciei diferentes áreas que me permitiram crescer, desenvolver múltiplas habilidades e entender o valor da colaboração no ambiente de trabalho. Tenho um perfil proativo, gosto de entender como as coisas funcionam e sempre busco formas mais eficientes de executar tarefas e otimizar processos.
+        <br><br>
+        Sou pontual, comprometido com prazos e acredito que ser prestativo faz toda a diferença no dia a dia corporativo. Gosto de aprender novos sistemas, metodologias e formas de trabalho.
+        <br><br>
+        No meu tempo livre, curto jogar com os amigos, narrar e participar de RPG de mesa, assistir filmes e séries, assistir a jogos de futebol, e aproveitar o tempo com minha esposa. Meus fins de semana são divididos entre visitar minha família, maratonar alguma série debaixo das cobertas ou sair pra comer e curtir um cinema.
+      </p>
+    </section>
+
+    <section id="projetos" class="projects">
+  <h2>Projetos</h2>
+  <div class="projects-lista-lado">
+
+    <div class="project-lado destaque-landpage">
+      <div class="project-esquerda-landpage">
+        <h3>Desenvolvimento de land page</h3>
+        <div class="imagens-landpage">
+          <img src="img/liponew.png" alt="Landing Page 2"/>
+          <img src="img/intnew.png" alt="Landing Page 1"/>
+          <img src="img/crednew.png" alt="Landing Page 3"/>
+        </div>
+        <p class="frase-landpage"> Projeto auxiliar em parceria.
+          <br>
+          Criação e desenvolvimento completo de landing pages, projeto particular.
+        </p>
+        <button class="vejamais" data-card="cardExpandido">Veja mais</button>
+      </div>
+    </div>
+
+    <div class="card-expandido1" id="cardExpandido">
+      <div class="card-conteudo1">
+        <button class="fechar-btn" data-close="card-expandido">✖</button>
+        <h2>Desenvolvimento de Landing Page</h2>
+        <div class="imagens-modal">
+          <img src="img/lipocred.jpg" alt="Landing Page 2"/>
+          <img src="img/int_banner.jpg" alt="Landing Page 1"/>
+          <img src="img/paginaoxe.jpg" alt="Landing Page 3"/>
+        </div>
+        <p>
+          Projeto auxiliar em parceria.<br>
+          Criação e desenvolvimento completo de landing pages, projeto particular.
+        </p>
+      </div>
+    </div>
+
+    <div class="project-lado">
+      <div class="project-esquerda">
+        <h3>Portifólio Online - Modelo 1</h3>
+        <img src="img/Portifólio.jpeg" alt="Cadastro Firebase" />
+        <p>Projeto criado para apresentar ao cliente suas qualificações, cursos concluídos e projetos realizados.</p>
+        <button class="vejamais" data-card="card-expandido">Veja mais</button>
+      </div>
+    </div>
+
+    <div id="card-expandido" class="card-expandido">
+      <div class="card-conteudo">
+        <button class="fechar-btn" data-close="card-expandido">✖</button>
+        <h3>Portifólio Online</h3>
+        <img style="max-width: 80%;" class="imagem-expandidaPort" src="img/Portifólio.jpeg" alt="Cadastro Firebase"/>
+        <img style="max-width: 80%;" class="imagem-expandidaPort" src="img/Port.png" alt="Cadastro Firebase"/>
+        <p>Ter um portfólio online é essencial para apresentar de forma profissional seus projetos, habilidades e serviços prestados. Ele facilita a confiança de clientes e parceiros, mostra sua evolução e deixa tudo acessível com apenas um clique.</p>
+        <p>Acesse: <a href="https://thalys-curriculum.vercel.app/projetos.html" target="_blank">https://thalys-curriculum.vercel.app/projetos.html</a></p>
+      </div>
+    </div>
+
+    <div id="lightboxPort" class="lightboxPort">
+      <span class="fechar-lightboxPort">✖</span>
+      <img class="imagem-lightboxPort" src="" alt="Imagem AmpliadaPort" />
+      <div class="setasPort">
+        <span class="setaPort esquerdaPort">&#10094;</span>
+        <span class="setaPort direitaPort">&#10095;</span>
+      </div>
+    </div>
+
+    <div class="project-lado">
+      <div class="project-esquerda">
+        <h3>ScreedGames – E-commerce de Tecnologia (TCC)</h3>
+        <img src="img/Screedgames.png" alt="Automação Python"/>
+        <p>Criação e desenvolvimento de layout para e-commerce, como projeto final de curso.</p>
+        <button class="vejamais" data-card="card2">Veja mais</button>
+      </div>
+    </div>
+
+    <div id="card2" class="card-expandido">
+      <div class="card-conteudo">
+        <button class="fechar-btn" data-close="card2">✖</button>
+        <h3>Loja online - Screedgames</h3>
+        <div class="imagens-galeria">
+          <img src="img/Screedgames.png" alt="Automação Python"/>
+          <img src="img/TCC2.png" alt="Automação Python"/>
+          <img src="img/TCC3.png" alt="Automação Python"/>
+          <img src="img/TCC4.png" alt="Automação Python"/>
+          <img src="img/TCC5.png" alt="Automação Python"/>
+          <img src="img/TCC6.png" alt="Automação Python"/>
+          <img src="img/TCC7.png" alt="Automação Python"/>
+          <img src="img/TCC8.png" alt="Automação Python"/>
+          <img src="img/TCC9.png" alt="Automação Python"/>
+          <img src="img/TCC10.png" alt="Automação Python"/>
+          <img src="img/TCC11.png" alt="Automação Python"/>
+          <img src="img/TCC12.png" alt="Automação Python"/>
+        </div>
+        <p style="text-align: left;">O ScreedGames foi o meu Trabalho de Conclusão de Curso (TCC), com o objetivo de desenvolver um e-commerce completo e funcional, voltado para a venda de produtos relacionados ao universo gamer e tecnológico (periféricos, acessórios, consoles, etc). O nome ScreedGames surgiu da junção entre Assassin’s Creed — jogo marcante na minha infância — e Games, representando a proposta do site.</p>
+        <p style="text-align: left;">O TCC foi dividido em duas etapas principais:</p>
+        <p style=" font-weight: bold; font-size: 1.2rem; text-align: left;">
+        Etapa 1 – Documentação Técnica
+        </p>
+        <p style="text-align: left;">
+        Antes de qualquer linha de código, elaborei uma documentação completa com mais de 50 páginas, contendo:
+        <br>
+        Diagrama de classes para definir a estrutura das entidades do sistema;
+        <br>
+        Diagrama de casos de uso para mapear todas as interações possíveis com a plataforma;
+        <br>
+        Fluxograma de navegação entre páginas;
+        <br>
+        Requisitos funcionais e não funcionais;
+        <br>
+        Mockups de interface e estrutura de telas;
+        <br>
+        Descrição da arquitetura de software utilizada (cliente-servidor, banco de dados relacional, etc.)
+        <br><br>
+        Esse material foi avaliado e aprovado pelo conselho da faculdade, permitindo o início da fase de desenvolvimento.
+        <br><br>
+        <p style="font-weight: bold; font-size: 1.2rem; text-align: left;">
+        Etapa 2 – Desenvolvimento do E-commerce
+        </p>   
+        <p style="text-align: left;">
+        A aplicação foi desenvolvida com foco em usabilidade, segurança e experiência real de uso, incluindo funcionalidades tanto para clientes quanto para administradores/funcionários. Abaixo, uma descrição mais aprofundada de cada uma:
+        </p>
+        <p style="text-align: left;">
+        <p style=" font-weight: bold; text-align: left;">Carrossel de Destaques</p>
+        <p style="text-align: left;">Logo na página inicial, o usuário visualiza um carrossel com os produtos mais populares, baseado nos acessos e nas vendas registradas no banco de dados.</p>
+        <p style=" font-weight: bold; text-align: left;">Seção de Mais Vendidos</p>
+        <p style="text-align: left;">Um espaço exclusivo apresenta os produtos mais vendidos, atualizados dinamicamente conforme o histórico de vendas.</p>
+        <p style="font-weight: bold; text-align: left;">Navegação por Categorias</p>
+        <p style="text-align: left;">O cliente pode navegar de forma intuitiva por categorias específicas (teclados, mouses, monitores, headsets etc.), facilitando a experiência de compra.</p>
+        <p style="font-weight: bold; text-align: left;">Criação de Conta</p>
+        <p style="text-align: left;">Sistema completo de cadastro de cliente, com login e autenticação segura. Caso o cliente esqueça a senha, há uma opção de recuperação via e-mail, garantindo autonomia e segurança.</p>
+        <p style="font-weight: bold; text-align: left;">Área “Minha Conta”</p>
+        <p style="text-align: left;">Visualização de pedidos anteriores</p>
+        <p style="text-align: left;">Acompanhamento do status em tempo real (aguardando pagamento, pagamento confirmado, preparando envio, enviado)</p>
+        <p style="text-align: left;">Edição dos dados pessoais, com verificação via código enviado por e-mail para evitar alterações não autorizadas</p>
+        <p style="font-weight: bold; text-align: left;">Cadastro e Gestão de Produtos</p>
+        <p style="text-align: left;">Cadastro de novos produtos, com imagem, descrição, preço e quantidade em estoque</p>
+        <p style="text-align: left;">Edição e remoção de produtos com controle total sobre o inventário</p>
+        <p style="font-weight: bold; text-align: left;">Controle de Estoque Automatizado</p>
+        <p style="text-align: left;">Quando o estoque de um produto chega a zero, o item é automaticamente ocultado da loja para os clientes</p>
+        <p style="text-align: left;">Um alerta visual é exibido para o administrador, sinalizando que o item precisa ser reabastecido</p>
+        <p style="font-weight: bold; text-align: left;">Painel de Vendas com Relatórios</p>
+        <p style="text-align: left;">Área administrativa com relatórios detalhados de vendas, incluindo:</p>
+        <p style="text-align: left;">Produtos mais vendidos</p>
+        <p style="text-align: left;">Receita total</p>
+        <p style="text-align: left;">Filtros por período</p>
+        <p style="text-align: left;">Gráficos interativos para análise visual do desempenho da loja</p>
+        <p style="font-weight: bold; text-align: left;">Acompanhamento do Ciclo de Venda</p>
+        <p style="text-align: left;">Cada pedido passa por uma linha de produção virtual:</p>
+        <p style="text-align: left;">Aguardando pagamento</p>
+        <p style="text-align: left;">Pagamento confirmado</p>
+        <p style="text-align: left;">Produto em embalagem</p>
+        <p style="text-align: left;">Produto enviado</p>
+        <p style="text-align: left;">Esse controle permite que o administrador saiba exatamente em que etapa cada pedido está, garantindo organização logística.</p>
+        <p style="text-align: left;">Funcionários/Admins acessam áreas administrativas restritas por meio de login com credenciais próprias</p>
+        <br>
+        <p style="font-weight: bold; text-align: left;">Resultado Final</p>
+        <p style="text-align: left;">O ScreedGames entrega uma experiência de navegação fluida, com funcionalidades reais de um e-commerce moderno. A estrutura completa do projeto me proporcionou uma vivência prática de todo o ciclo de desenvolvimento de software — da análise e documentação até a entrega de um sistema funcional, escalável e voltado para o usuário final.</p>
+        </p>
+        <p>
+          Acesse  
+          <a href="https://screedgames.netlify.app" target="_blank">
+          https://screedgames.netlify.app
+          </a>
+        </p>
+      </div>
+    </div>
+
+    <div id="imagem-modal" class="imagem-modal">
+      <span class="fechar-imagem">&times;</span>
+      <img class="imagem-ampliada" src="" alt="Imagem Ampliada">
+      <span class="seta esquerda">&#10094;</span>
+      <span class="seta direita">&#10095;</span>
+    </div>
+
+    <div class="project-lado">
+      <div class="project-esquerda">
+        <h3>Projeto I.S.C</h3>
+        <img src="img/Intranet.jfif" alt="Automação Python"/>
+        <p>Intranet Social Corporativa, criação de desenvolvimento de interface de aplicação business.</p>
+        <button class="vejamais" data-card="card3">Veja mais</button>
+      </div>
+    </div>
+
+    <div id="card3" class="card-expandido">
+      <div class="card-conteudo">
+        <button class="fechar-btn" data-close="card3">✖</button>
+        <h3>Intranet Social Coorporativa</h3>
+        <img src="img/mock-.png" alt="Automação Python" />
+          <p style="text-align: left;">
+           Por: Thalys Matheus de Aguiar.
+           <br>
+           EMPRESA: Atn Contact Center.
+           <br>
+           PERIODO: Quarenta e cinco dias.
+           </p>
+           <p style=" font-weight: bold; font-size: 1.2rem; text-align: left;">Resumo.</p>
+           <p style="text-align: left;">
+           O projeto visa implementar uma rede social corporativa abrangente para toda a empresa, com o objetivo principal de resolver problemas relacionados ao uso de aplicativos externos para comunicação interna online. A nova intranet social proporcionará uma plataforma unificada para melhorar a comunicação e colaboração entre os colaboradores da empresa, substituindo ferramentas externas e centralizando a interação em um ambiente corporativo dedicado.
+           <br><br>
+           O projeto foi implementado na Atn Contact Center, abrangendo um total de 853 funcionários. A fase de introdução do projeto durou quinze dias, seguida pela configuração, que levou dez dias, e finalmente pela implementação, que foi concluída em mais quinze dias. No total, o projeto foi concluído em um período de quarenta e cinco dias, assegurando que todos os processos fossem realizados de maneira eficiente e dentro do cronograma estabelecido.
+           <br><br>
+           </p>
+           <p style=" font-weight: bold; font-size: 1.2rem; text-align: left;">Introdução.</p>
+           <p style="text-align: left;">
+           O projeto visa resolver dois problemas significativos enfrentados pela empresa Atn Contact Center. O primeiro problema é o uso de ferramentas externas para comunicação interna, que pode causar falta de integração e eficiência. O segundo problema é a utilização de uma pasta compartilhada chamada "Intercambio", onde os colaboradores enviam e recebem dados, como planilhas e arquivos, entre setores.
+           <br>
+           A criação de uma rede social corporativa interna visa integrar essas funcionalidades em uma única plataforma, melhorando a comunicação e a gestão de dados dentro da empresa.
+           <br><br>
+           </p>
+           <p style=" font-weight: bold; font-size: 1.2rem; text-align: left;">Objetivos.</p>
+           <p style="text-align: left;">
+           O principal objetivo do projeto é resolver o problema do uso de ferramentas externas para comunicação interna e da pasta compartilhada chamada "Intercambio". 
+           <br><br>
+           A nova intranet social permitirá:
+           <br>
+           Comunicação Integrada: Facilitar a troca de dados entre gestores e equipes através de uma plataforma única, substituindo a pasta compartilhada.
+           <br><br>
+           Chats e Reuniões: Criar espaços para conversas privadas e em grupo, além de permitir reuniões online, tudo dentro da plataforma.
+           <br><br>
+           Espaços Privativos: Oferecer áreas exclusivas para cada gestor e sua equipe, permitindo diálogo e compartilhamento de dados necessários para o trabalho.
+           <br><br>
+           Com essas funcionalidades, a intranet social promoverá uma comunicação mais eficiente e organizada dentro da empresa.
+           <br><br>
+           </p>
+           <p style=" font-weight: bold; font-size: 1.2rem; text-align: left;">Escopo do projeto.</p>
+           <p style="text-align: left;">
+           Neste projeto estão inclusas as permissões para reuniões online, uso de chat, espaço privativo para equipe, tudo isso sendo organizado pelo gestor responsável de cada equipe.
+           <br><br>
+           No que diz respeito a implementação da intranet, foi feita a configuração de alguns cargos sendo eles, colaboradores, administradores entre outros, cada cargo tendo uma limitação de permissões para que possam fazer uso da plataforma, o colaborador sendo o mais limitado não podendo criar chats, não podendo criar espaços privativos e não podendo participar de reuniões, essas mesmas funções ficariam com o gestor de cada equipe, sendo eles com o cargo administrador.
+           <br><br>
+           Cargos criados e configurados para uso:
+           <br>
+           Administrator: Este cargo tem todas as permissões e acessos na plataforma para que possa resolver qualquer necessidade que surja com o tempo, podendo também alterar e fazer novas configurações que sejam importantes e podem impactar de forma positiva as funções da intranet. O mesmo cargo ficando responsável por realizar um backup semanal da plataforma para evitar perdas e danos.
+           <br><br>
+           Administrador: Com este cargo, é possível ter acesso a algumas funções administrativas, sendo elas, a criação de espaços, possibilitando o usuário a criação do espaço privado com a sua equipe, também possuindo a permissão do uso de assuntos, para que possa ser usado para melhorar a comunicação interna, seja com sua equipe ou entre outros setores.
+           <br><br>
+           RH: Este cargo possui as mesmas funções e permissões que o cargo administrador, tendo também acesso a criação de novos contas, resetar a senha, configurar novos cargos, configurar permissões dentro de um grupo, entre outras funções.
+           <br><br>
+           Colaborador: O cargo de colaborador seria o cargo para os funcionários da empresa que não teriam necessidade de terem funções administrativas na plataforma, assim teria muitas limitações, dentre elas as principais seriam, não poder criar e administrar espaços e assuntos, podendo apenas mexer no próprio perfil e visitar o perfil de outras pessoas, suas funções viriam a partir do supervisor que lhe daria o acesso ao espaço de sua equipe e caso fosse da necessidade dele, um assunto privado com o colaborador ou até mesmo da equipe.
+           <br><br>
+           Os cargos foram criados desta forma para separar algumas funções e evitar alguns problemas no futuro, como por exemplo o uso do chat, onde caso fosse permitido qualquer colaborador da empresa fazer uso total dessa função, os operadores poderiam desviar a sua atenção com assuntos fora do ambiente corporativo e acabar fazendo com que sua produção fosse afetada.
+           <br><br>
+           A intranet também possui um filtro de linguagem social para evitar o uso de palavras de baixo calão em duas línguas, português e inglês, caso utilizasse um palavrão ou uma variação dele, utilizando outras letras, números ou afins, o comentário ou mensagem não seria enviada e apresentaria um erro ao usuário.
+           <br><br>
+           Ao adentrar a plataforma pela primeira vez, é apresentado todos os temos da empresa, incluindo um novo termo sendo do uso da intranet, após aceitar o termo e continuar, aparecerá um novo e com mais destaque sobre LGPD, que seria mais um termo da empresa, caso a pessoa aceite, irá conseguir adentrar a plataforma, porém, ao não aceitar, o usuário será movido para a tela inicial e não conseguirá fazer uso da plataforma, assim, tendo um certo controle sobre quais usuários aceitaram os termos, e quais não aceitaram.
+           <br><br>
+           </p>
+           <p style=" font-weight: bold; font-size: 1.2rem; text-align: left;">Cronograma.</p>
+           <p style="text-align: left;">
+           O projeto teve início com uma ideia, e após estudar um pouco sobre o que seria necessário, foi possível dar início e fazer a ideia sair do papel.
+           <br><br>
+           Depois de sair do papel, começamos a configurar os cargos, os fornecendo nomes e as permissões adequadas.
+           <br><br>
+           Após os cargos, começamos a definir alguns quais seriam os espaços privativos que seriam criados baseando-se nas equipes da empresa, na criação de cada um foi feito um padrão para o nome de cada espaço, assim como as configurações de cargo e permissões dentro do espaço possibilitando que cada espaço tivesse seus membros, moderadores e administradores.
+           <br><br>
+           Com os espaços prontos, começamos a configuração de cada módulo que iriamos usar, os módulos usados, permitiriam novas funções dentro do projeto, sendo alguns deles o modo escuro, tarefas, calendários, termos de uso, filtro para palavrões, entre muitos outros módulos.
+           <br><br>
+           Com isso, foi feita uma reunião com uma equipe para fazer um teste e simular como a plataforma deveria ser usada, após a reunião, todos os logins foram criados e foi dado início ao tempo de duas semanas para teste.
+           <br><br>
+           Com as duas semanas de teste realizadas, conseguimos comprovar que o projeto de fato funcionou, então, fomos ao RH, e conversar com eles para começar a implementação para o resto da empresa, com isso, teria uma pessoa do RH que seria responsável pelo setor dentro da intranet, esta pessoa seria a única a ter um espaço público, tendo como objetivo serem feitas postagens dentro deste espaço que fosse para que todos da empresa pudessem ter aceso ao post, tendo em mente que todos os logins da plataforma obrigatoriamente estariam neste espaço público e apenas a pessoa responsável pelo espaço conseguiria postar no mesmo.
+           <br><br>
+           O RH havia topado e com isso, fizemos todas as atualizações pendentes da plataforma e dos módulos, ativamos eles em todos os espaços criados, e fomos nos gestores de cada equipe para mostrar a plataforma, mostramos sua funcionalidade, explicamos seu objetivo, e tiramos suas dúvidas, com todos gostando da ideia e também querendo fazer parte, recolhemos alguns dados da equipe, sendo eles o primeiro e último nome, e o cargo dentro da empresa, e assim criamos o login de todos na empresa com uma senha padrão, no primeiro acesso a plataforma de cada usuário, a plataforma irá pedir o usuário para trocar a senha, ao trocar e aceitar o termos em seguida, conseguirá fazer uso da plataforma.
+           <br><br>
+           </p>
+           <p style=" font-weight: bold; font-size: 1.2rem; text-align: left;">Recursos necessários.</p>
+           <p style="text-align: left;">
+           Para a implementação e utilização da plataforma, foram adotados diversos recursos tecnológicos para garantir sua eficiência e segurança. Inicialmente, foi provisionado um servidor dedicado, configurado com uma máquina virtual, responsável por hospedar a plataforma. A máquina virtual foi cuidadosamente configurada para atender às necessidades de desempenho e escalabilidade do sistema.
+           <br><br>
+           Para o acesso à plataforma, utilizou-se uma ferramenta externa de gerenciamento remoto, que permitiu o controle total da máquina virtual de forma segura e eficiente. Alternativamente, também foi possível acessar a máquina diretamente através da funcionalidade de Acesso Remoto do Windows, proporcionando flexibilidade aos administradores. Além disso, foi necessário um computador com conexão estável à internet para garantir o acesso contínuo e ininterrupto à plataforma, permitindo a interação dos usuários com as funcionalidades oferecidas.
+           <br><br>
+           Essa infraestrutura tecnológica foi projetada para suportar o tráfego de dados, garantir a segurança da informação e oferecer uma experiência fluida aos usuários, assegurando que a plataforma estivesse disponível e funcional em qualquer momento.
+           <br><br>
+           </p>
+           <p style=" font-weight: bold; font-size: 1.2rem; text-align: left;">Conclusão.</p>
+           <p style="text-align: left;">
+           O projeto foi desenvolvido com o objetivo de unificar três ferramentas utilizadas na empresa—duas externas e uma interna—em uma única plataforma, buscando otimizar a comunicação interna e garantir maior controle sobre as interações entre os colaboradores. Ao centralizar essas ferramentas em uma só, todos os colaboradores seriam obrigados a aceitar os novos termos da empresa, o que permitiria à administração monitorar as conversas dentro da plataforma, prevenindo potenciais problemas e garantindo que o ambiente de trabalho seja respeitado.
+           <br><br>
+           Entretanto, é crucial destacar que, além do controle e da segurança proporcionados pela nova plataforma, o principal objetivo é criar um ambiente de trabalho mais saudável, colaborativo e acolhedor para todos. A implementação dessa intranet visa não apenas proteger a empresa, mas também promover uma cultura organizacional positiva, onde todos os colaboradores se sintam seguros para comunicar e colaborar. Além disso, todas as medidas implementadas foram cuidadosamente alinhadas com a Lei Geral de Proteção de Dados (LGPD), garantindo que a privacidade e os direitos dos colaboradores sejam respeitados integralmente.
+           <br><br>
+           Com essa abordagem, o projeto não só moderniza a comunicação interna da empresa, mas também reforça o compromisso com um ambiente de trabalho ético e em conformidade com as leis vigentes, demonstrando que a empresa valoriza tanto a segurança das informações quanto o bem-estar de seus colaboradores.
+           <br><br>
+           Após a implementação completa do projeto em toda a empresa, recebi feedback de diversos gestores que destacaram o impacto positivo que a iniciativa teve nas equipes. Os resultados foram acima da média, com alguns colaboradores se destacando ainda mais em suas funções. Segundo os gestores, os colaboradores consideraram o projeto inovador, percebendo um ambiente de trabalho mais livre e leve. Essa mudança proporcionou uma maior tranquilidade na execução das tarefas, o que resultou em um aumento na produtividade e na qualidade das entregas, superando as expectativas anteriores.
+           </p>
+      </div>
+    </div>
+
+    <div class="project-lado">
+      <div class="project-esquerda">
+        <h3>Projeto Unifica</h3>
+        <img src="img/Bloqueados4.png" alt="Automação Python"/>
+        <p>Este projeto surgiu para resolver um problema recorrente de uso simultâneo e perda de informações em uma planilha compartilhada de clientes bloqueados.</p>
+        <button class="vejamais" data-card="card4">Veja mais</button>
+      </div>
+    </div>
+
+    <div id="card4" class="card-expandido">
+      <div class="card-conteudo">
+        <button class="fechar-btn" data-close="card4">✖</button>
+        <h3>Projeto Unifica</h3>
+        <img style="max-width: 80%;" class="imagem-expandidaUni" src="img/Bloqueados1.png" alt="Automação Python" />
+        <img style="max-width: 80%;" class="imagem-expandidaUni" src="img/Bloqueados2.png" alt="Automação Python" />
+        <img style="max-width: 80%;" class="imagem-expandidaUni" src="img/Bloqueados3.png" alt="Automação Python" />
+        <img style="max-width: 80%;" class="imagem-expandidaUni" src="img/Bloqueados4.png" alt="Automação Python" />
+        <p style="text-align: left;">Este projeto surgiu para resolver um problema recorrente de uso simultâneo e perda de informações em uma planilha compartilhada de clientes bloqueados.</p>
+        <p style="text-align: left;">A planilha era utilizada diariamente por cinco funcionários ao mesmo tempo, o que causava diversos problemas como: dificuldade para salvar alterações, necessidade de pedir para outros fecharem o arquivo, risco de sobrescrever dados e baixa usabilidade geral. As alterações constantes — como inclusão, exclusão e adição de observações — estavam tornando o processo caótico e ineficiente.</p>
+        <p style="text-align: left;">Para resolver isso, desenvolvi uma aplicação web conectada a um banco de dados centralizado, onde cadastrei todos os clientes da planilha original. A aplicação permitia que cada colaborador acessasse com seu próprio login e senha, garantindo controle e segurança.</p>
+        <p style="text-align: left;">As funcionalidades incluíam:</p>
+        <p style="text-align: left;">Cadastro de novos clientes bloqueados;</p>
+        <p style="text-align: left;">Consulta e edição da ficha do cliente;</p>
+        <p style="text-align: left;">Exclusão do registro do banco de dados;</p>
+        <p style="text-align: left;">Visualização dos dados em formato de tabela moderna, com filtros, barra de pesquisa e layout limpo.</p>
+        <p style="text-align: left;">Com isso, todos puderam acessar simultaneamente, sem perda de informações ou necessidade de salvar manualmente. O sistema trouxe mais agilidade, organização e escalabilidade ao processo interno da empresa.</p>
+      </div>
+    </div>
+
+    <div id="lightboxUni" class="lightboxUni">
+      <span class="fechar-lightboxUni">✖</span>
+      <img class="imagem-lightboxUni" src="" alt="Imagem AmpliadaUni" />
+      <div class="setasUni">
+        <span class="setaUni esquerdaUni">&#10094</span>
+        <span class="setaUni direitaUni">&#10095</span>
+      </div>
+    </div>
+
+    <div class="project-lado">
+      <div class="project-esquerda">
+        <h3>Projeto Reativa</h3>
+        <img src="img/Filtro3.png" alt="Automação Python"/>
+        <p>O principal objetivo deste projeto foi identificar e reativar clientes com alto potencial dentro da nossa base de dados, visando aumentar a produtividade e conversão em operações de crédito.</p>
+        <button class="vejamais" data-card="card5">Veja mais</button>
+      </div>
+    </div>
+
+    <div id="card5" class="card-expandido">
+      <div class="card-conteudo">
+        <button class="fechar-btn" data-close="card5">✖</button>
+        <h3>Projeto Reativa</h3>
+        <img style="max-width: 80%;" class="imagem-expandidaRea" src="img/Filtro1.png" alt="Imagem 1"/>
+        <img style="max-width: 80%;" class="imagem-expandidaRea" src="img/Filtro2.png" alt="Imagem 2"/>
+        <img style="max-width: 80%;" class="imagem-expandidaRea" src="img/Filtro3.png" alt="Imagem 3"/>
+        <p style="text-align: left;">O principal objetivo deste projeto foi identificar e reativar clientes com alto potencial dentro da nossa base de dados, visando aumentar a produtividade e conversão em operações de crédito.</p>
+        <p style="text-align: left;">Trabalhamos com uma base de aproximadamente 30 mil clientes cadastrados, a maioria composta por clientes antigos que realizavam empréstimos e portabilidades com frequência. Ao exportar esses dados para uma planilha, desenvolvi uma aplicação que permitia importar e cadastrar todos os clientes de uma só vez, exibindo-os em tela no formato de uma planilha interativa, que funcionava como um espelho do banco de dados utilizado.</p>
+        <p style="text-align: left;">Com a implementação de filtros por tempo de inatividade (1 a 12 meses), foi possível identificar quais clientes estavam há mais tempo sem realizar novos empréstimos. Após aplicar os filtros, o sistema permitia a exportação dos dados desses clientes inativos para uma nova planilha, que então era integrada à discadora automática.</p>
+        <p style="text-align: left;">Essa segmentação estratégica criou uma fila exclusiva de clientes com histórico positivo, mas que estavam inativos, permitindo que as operadoras priorizassem esses contatos e, como resultado, aumentando significativamente a produtividade mensal da equipe.</p>
+      </div>
+    </div>
+
+    <div id="lightboxRea" class="lightboxRea">
+      <span class="fechar-lightboxRea">✖</span>
+      <img class="imagem-lightboxRea" src="" alt="Imagem AmpliadaRea" />
+      <div class="setasRea">
+        <span class="setaRea esquerdaRea">&#10094</span>
+        <span class="setaRea direitaRea">&#10095</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="tecnologias" class="skills">
+  <h2>Tecnologias utilizadas</h2>
+  <div class="skills-icons">
+    <div class="tech">
+      <p>HTML</p>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" title="HTML" />
+    </div>
+    <div class="tech">
+      <p>CSS</p>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" title="CSS" />
+    </div>
+    <div class="tech">
+      <p>JavaScript</p>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" title="JavaScript" />
+    </div>
+    <div class="tech">
+      <p>Python</p>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" title="Python" />
+    </div>
+    <div class="tech">
+      <p>Firebase</p>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase" title="Firebase" />
+    </div>
+    <div class="tech">
+      <p>VS Code</p>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="Visual Studio Code" title="Visual Studio Code" />
+    </div>
+    <div class="tech">
+      <p>WordPress</p>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg" alt="WordPress" title="WordPress" />
+    </div>
+    <div class="tech">
+      <p>Elementor</p>
+      <img src="https://elementordefinitivo.com/wp-content/uploads/2024/03/curso-elementor-definitivo-499x499.webp" alt="Elementor" title="Elementor" style="width: 50px; height: 50px;" />
+    </div>
+    <div class="tech">
+      <p>Copyright</p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Copyright.svg/1200px-Copyright.svg.png" alt="Copyright" title="Copyright" style="width: 50px; height: 50px;" />
+    </div>
+    <div class="tech">
+      <p>SEO</p>
+      <img src="https://cdn-icons-png.flaticon.com/512/1144/1144760.png" alt="SEO" title="SEO" style="width: 50px; height: 50px;" />
+    </div>
+  </div> 
+</section>
+    <section id="servicos" class="services">
+      <h2>Serviços</h2>
+      <div class="servicos-lista">
+        <div class="servico">
+          <h3>Suporte Técnico</h3>
+          <p>Atendimento a usuários, conserto, monstagem e limpeza de computadores.</p>
+        </div>
+        <div class="servico">
+          <h3>Desenvolvimento de aplicações.</h3>
+          <p>Desenvolvimento de aplicações com foco em automação de processos, gerenciamento de negócios, estoque de produtos, entre outros.</p>
+        </div>
+        <div class="servico">
+          <h3>Desenvolvimento Web</h3>
+          <p>Desenvolvimento de sites e plataformas utilizando linguagens de programação.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="whatsapp">
+      <button onclick="abrirWhatsapp()">📞 Chame no WhatsApp</button>
+    </section>
+  </main>
+
+<footer id="contato">
+  <div class="footer-contato">
+    <h3>Contato</h3>
+    <div class="contatos-linha">
+      <span>Email: <a href="mailto:thalysmaguiar@gmail.com">thalysmaguiar@gmail.com</a></span>
+      <span>Telefone: <a href="tel:+5521989043776">(21) 98904-3776</a></span>
+      <span>LinkedIn: <a href="https://linkedin.com/in/seulink" target="_blank">linkedin.com/in/seulink</a></span>
+    </div>
+  </div>
+  <br>
+  <div class="copy">
+    <p>&copy; 2025 Thalys • Todos os direitos reservados</p>
+  </div>
+</footer>
+  <script src="js/index.js"></script>
+</body>
+</html>
